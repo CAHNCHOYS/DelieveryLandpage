@@ -713,15 +713,20 @@ body._isLocked {
   display: none;
 }
 
+
 .video__pause img {
   width: 70%;
   height: 70%;
+	transform: translate(10px,0);
+			display: block;
 }
 
 .video__pause.active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .video__show-info {
